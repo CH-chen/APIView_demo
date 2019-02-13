@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        {#JSON字符串#}
+        {#JSON.parse(): 用于将一个 JSON 字符串或者后端传来的JSON字符串转换为 JavaScript 对象#}
+        var s = '{"name":"jack"}';
+        var data = JSON.parse(s);
+
+        console.log(data);
+        {#object类型#}
+        console.log(typeof data);
+        console.log(data.name);
+        {#得到的值为jack#}
+    </script>
+</head>
+<body>
+
+</body>
+</html>
